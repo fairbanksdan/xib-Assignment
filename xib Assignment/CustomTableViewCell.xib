@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="5056" systemVersion="13C64" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" id="KGk-i7-Jjw" customClass="CustomTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="75"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="74"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Tiger.png" translatesAutoresizingMaskIntoConstraints="NO" id="YXe-D4-yPy">
+                        <rect key="frame" x="0.0" y="0.0" width="75" height="75"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="75" id="bG2-2U-jM9"/>
+                            <constraint firstAttribute="width" constant="75" id="dpk-lL-5rf"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xla-l6-qTZ">
+                        <rect key="frame" x="99" y="26" width="188" height="21"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" name="AvenirNext-UltraLightItalic" family="Avenir Next" pointSize="17"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="xla-l6-qTZ" secondAttribute="trailing" constant="33" id="Ehc-zm-fhY"/>
+                    <constraint firstAttribute="bottom" secondItem="xla-l6-qTZ" secondAttribute="bottom" constant="27" id="Jbw-gZ-P8s"/>
+                    <constraint firstItem="YXe-D4-yPy" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="YFW-LX-IWx"/>
+                    <constraint firstItem="YXe-D4-yPy" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="p28-UU-iqJ"/>
+                    <constraint firstItem="xla-l6-qTZ" firstAttribute="leading" secondItem="YXe-D4-yPy" secondAttribute="trailing" constant="24" id="teG-e0-WTY"/>
+                    <constraint firstItem="xla-l6-qTZ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="26" id="yFe-5N-Rk1"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="imageForCell" destination="YXe-D4-yPy" id="cEM-ad-5kL"/>
+                <outlet property="imageView" destination="YXe-D4-yPy" id="1Nn-DS-Hv3"/>
+                <outlet property="titleLabel" destination="xla-l6-qTZ" id="Jq4-Le-2pO"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Tiger.png" width="75" height="75"/>
+    </resources>
+</document>

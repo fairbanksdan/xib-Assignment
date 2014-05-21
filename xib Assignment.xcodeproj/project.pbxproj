@@ -21,6 +21,9 @@
 		D6FD8230192D53E000A1B7E8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6FD8212192D53E000A1B7E8 /* UIKit.framework */; };
 		D6FD8238192D53E000A1B7E8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D6FD8236192D53E000A1B7E8 /* InfoPlist.strings */; };
 		D6FD823A192D53E000A1B7E8 /* xib_AssignmentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6FD8239192D53E000A1B7E8 /* xib_AssignmentTests.m */; };
+		D6FD8246192D543600A1B7E8 /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D6FD8244192D543600A1B7E8 /* CustomTableViewCell.m */; };
+		D6FD8247192D543600A1B7E8 /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6FD8245192D543600A1B7E8 /* CustomTableViewCell.xib */; };
+		D6FD824B192D581200A1B7E8 /* Tiger.png in Resources */ = {isa = PBXBuildFile; fileRef = D6FD824A192D581200A1B7E8 /* Tiger.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,10 @@
 		D6FD8235192D53E000A1B7E8 /* xib AssignmentTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "xib AssignmentTests-Info.plist"; sourceTree = "<group>"; };
 		D6FD8237192D53E000A1B7E8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D6FD8239192D53E000A1B7E8 /* xib_AssignmentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = xib_AssignmentTests.m; sourceTree = "<group>"; };
+		D6FD8243192D543600A1B7E8 /* CustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableViewCell.h; sourceTree = "<group>"; };
+		D6FD8244192D543600A1B7E8 /* CustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewCell.m; sourceTree = "<group>"; };
+		D6FD8245192D543600A1B7E8 /* CustomTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
+		D6FD824A192D581200A1B7E8 /* Tiger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tiger.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +122,12 @@
 				D6FD821D192D53E000A1B7E8 /* AppDelegate.h */,
 				D6FD821E192D53E000A1B7E8 /* AppDelegate.m */,
 				D6FD8220192D53E000A1B7E8 /* Main.storyboard */,
+				D6FD8243192D543600A1B7E8 /* CustomTableViewCell.h */,
+				D6FD8244192D543600A1B7E8 /* CustomTableViewCell.m */,
+				D6FD8245192D543600A1B7E8 /* CustomTableViewCell.xib */,
 				D6FD8223192D53E000A1B7E8 /* ViewController.h */,
 				D6FD8224192D53E000A1B7E8 /* ViewController.m */,
+				D6FD824A192D581200A1B7E8 /* Tiger.png */,
 				D6FD8226192D53E000A1B7E8 /* Images.xcassets */,
 				D6FD8215192D53E000A1B7E8 /* Supporting Files */,
 			);
@@ -230,6 +241,8 @@
 			files = (
 				D6FD8227192D53E000A1B7E8 /* Images.xcassets in Resources */,
 				D6FD8219192D53E000A1B7E8 /* InfoPlist.strings in Resources */,
+				D6FD8247192D543600A1B7E8 /* CustomTableViewCell.xib in Resources */,
+				D6FD824B192D581200A1B7E8 /* Tiger.png in Resources */,
 				D6FD8222192D53E000A1B7E8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,6 +264,7 @@
 			files = (
 				D6FD8225192D53E000A1B7E8 /* ViewController.m in Sources */,
 				D6FD821F192D53E000A1B7E8 /* AppDelegate.m in Sources */,
+				D6FD8246192D543600A1B7E8 /* CustomTableViewCell.m in Sources */,
 				D6FD821B192D53E000A1B7E8 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
